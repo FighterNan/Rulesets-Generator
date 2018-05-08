@@ -1,0 +1,421 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDRBYTES	stdinc.h	53;"	d
+ADDRLEN	stdinc.h	52;"	d
+BIGINT	stdinc.h	/^const int BIGINT = 0x7fffffff;$/;"	v
+CC	makefile	/^CC = g++$/;"	m
+CFLAGS	makefile	/^CFLAGS = -O2$/;"	m
+EOS	stdinc.h	/^const int EOS = '\\0';$/;"	v
+ExtraList	ExtraList.cc	/^ExtraList::ExtraList(int P1) {$/;"	f	class:ExtraList	signature:(int P1)
+ExtraList	ExtraList.h	/^  ExtraList(int P); \/\/ constructor$/;"	p	class:ExtraList	signature:(int P)
+ExtraList	ExtraList.h	/^class ExtraList {$/;"	c
+ExtraListHeader	ExtraList.h	/^struct ExtraListHeader{$/;"	s
+ExtraListItem	ExtraList.h	/^struct ExtraListItem{$/;"	s
+FilterIndexListPtr	TupleBST.h	/^  dlist* FilterIndexListPtr;$/;"	m	struct:TupleBST_item
+FilterList	FilterList.cc	/^FilterList::FilterList() {$/;"	f	class:FilterList	signature:()
+FilterList	FilterList.h	/^ public: FilterList();$/;"	p	class:FilterList	signature:()
+FilterList	FilterList.h	/^class FilterList {$/;"	c
+FilterList_item	FilterList.h	/^struct FilterList_item {$/;"	s
+FiveTuple	TupleBST.h	/^struct FiveTuple{$/;"	s
+FlagList	FlagList.cc	/^FlagList::FlagList() {$/;"	f	class:FlagList	signature:()
+FlagList	FlagList.h	/^  FlagList(); \/\/ constructor$/;"	p	class:FlagList	signature:()
+FlagList	FlagList.h	/^class FlagList {$/;"	c
+FlagListItem	FlagList.h	/^struct FlagListItem{$/;"	s
+GetTupleLists	TupleBST.cc	/^dlist** TupleBST::GetTupleLists(){$/;"	f	class:TupleBST	signature:()
+GetTupleLists	TupleBST.h	/^  dlist** GetTupleLists(); \/\/ construct list of pointers to lists of filter indexes$/;"	p	class:TupleBST	signature:()
+InorderTreeWalk	TupleBST.cc	/^void TupleBST::InorderTreeWalk(TupleBST_item* node){$/;"	f	class:TupleBST	signature:(TupleBST_item* node)
+InorderTreeWalk	TupleBST.h	/^  void InorderTreeWalk(TupleBST_item*); \/\/ constructs ListOfFilterIndexPtrs$/;"	p	class:TupleBST	signature:(TupleBST_item*)
+Insert	TupleBST.cc	/^dlist* TupleBST::Insert(FiveTuple* ftuple){$/;"	f	class:TupleBST	signature:(FiveTuple* ftuple)
+Insert	TupleBST.h	/^  dlist* Insert(FiveTuple* ftuple); \/\/ add tuple to list, return pointer to list of filter indexes$/;"	p	class:TupleBST	signature:(FiveTuple* ftuple)
+ListOfFilterIndexPtrs	TupleBST.h	/^  dlist** ListOfFilterIndexPtrs; \/\/ array of dlist pointers$/;"	m	class:TupleBST
+MAXFILTERS	stdinc.h	54;"	d
+MAXSTR	stdinc.h	55;"	d
+N	ExtraList.h	/^  int N; \/\/ Number of extra fields$/;"	m	class:ExtraList
+N	PortList.h	/^  int N; \/\/ PortList of N port ranges$/;"	m	class:PortList
+N	PrefixList.h	/^  int N; \/\/ PrefixList of N prefixes$/;"	m	class:PrefixList
+N	ProtList.h	/^  int N; \/\/ ProtList of N protocols$/;"	m	class:ProtList
+N	TupleBST.h	/^  int N; \/\/ Number of extra fields$/;"	m	class:TupleBST
+Nest	dbintree.h	/^  int Nest; \/\/ Maximum allowed nesting$/;"	m	class:dbintree
+Nest	sbintree.h	/^  int Nest; \/\/ Maximum allowed nesting$/;"	m	class:sbintree
+Null	stdinc.h	/^const int Null = 0;$/;"	v
+P	ExtraList.h	/^  int P; \/\/ Number of protocols$/;"	m	class:ExtraList
+PortList	PortList.cc	/^PortList::PortList(int N1) {$/;"	f	class:PortList	signature:(int N1)
+PortList	PortList.h	/^ public: PortList(int=200);$/;"	p	class:PortList	signature:(int=200)
+PortList	PortList.h	/^class PortList {$/;"	c
+PrefixList	PrefixList.cc	/^PrefixList::PrefixList() {$/;"	f	class:PrefixList	signature:()
+PrefixList	PrefixList.h	/^ public: PrefixList();$/;"	p	class:PrefixList	signature:()
+PrefixList	PrefixList.h	/^class PrefixList {$/;"	c
+PrintNode	TupleBST.cc	/^void TupleBST::PrintNode(TupleBST_item* node){$/;"	f	class:TupleBST	signature:(TupleBST_item* node)
+PrintNode	TupleBST.h	/^  void PrintNode(TupleBST_item*);$/;"	p	class:TupleBST	signature:(TupleBST_item*)
+PrintTree	TupleBST.cc	/^void TupleBST::PrintTree(){$/;"	f	class:TupleBST	signature:()
+PrintTree	TupleBST.h	/^  void PrintTree();$/;"	p	class:TupleBST	signature:()
+ProtList	ProtList.cc	/^ProtList::ProtList() {$/;"	f	class:ProtList	signature:()
+ProtList	ProtList.h	/^ public: ProtList();$/;"	p	class:ProtList	signature:()
+ProtList	ProtList.h	/^class ProtList {$/;"	c
+PtrIndex	TupleBST.h	/^  int PtrIndex; \/\/ Index into ListOfFilterIndexPtrs$/;"	m	class:TupleBST
+TupleBST	TupleBST.cc	/^TupleBST::TupleBST() {$/;"	f	class:TupleBST	signature:()
+TupleBST	TupleBST.h	/^  TupleBST(); \/\/ constructor$/;"	p	class:TupleBST	signature:()
+TupleBST	TupleBST.h	/^class TupleBST {$/;"	c
+TupleBST_item	TupleBST.h	/^struct TupleBST_item{$/;"	s
+__CUSTOM_DB_H_	custom_db.h	11;"	d
+__DLIST_H_	dlist.h	12;"	d
+__EXTRALIST_H_	ExtraList.h	34;"	d
+__FILTERLIST_H_	FilterList.h	13;"	d
+__FLAGLIST_H_	FlagList.h	14;"	d
+__SBINTREE_H_	sbintree.h	15;"	d
+__TUPLEBST_H_	TupleBST.h	18;"	d
+abs	stdinc.h	/^inline int abs(int x) { return x < 0 ? -x : x; }$/;"	f	signature:(int x)
+add2child_stublist	dbintree.cc	/^void dbintree::add2child_stublist(struct tnode *node, int dir, int filt){$/;"	f	class:dbintree	signature:(struct tnode *node, int dir, int filt)
+add2child_stublist	dbintree.h	/^  void add2child_stublist(struct tnode *node, int dir, int filt);$/;"	p	class:dbintree	signature:(struct tnode *node, int dir, int filt)
+add_node	dbintree.cc	/^void dbintree::add_node(struct tnode *prnt, int lev, int dir){$/;"	f	class:dbintree	signature:(struct tnode *prnt, int lev, int dir)
+add_node	dbintree.h	/^  void add_node(struct tnode *prnt, int lev, int dir);$/;"	p	class:dbintree	signature:(struct tnode *prnt, int lev, int dir)
+add_node	sbintree.cc	/^void sbintree::add_node(struct stnode *prnt, int lev, int dir, unsigned int addr, dlist* Flist, struct filter filters[], int CurrNest){$/;"	f	class:sbintree	signature:(struct stnode *prnt, int lev, int dir, unsigned int addr, dlist* Flist, struct filter filters[], int CurrNest)
+add_node	sbintree.h	/^  void add_node(struct stnode *prnt, int lev, int dir, unsigned int addr, dlist* Flist, struct filter filters[], int CurrNest);$/;"	p	class:sbintree	signature:(struct stnode *prnt, int lev, int dir, unsigned int addr, dlist* Flist, struct filter filters[], int CurrNest)
+add_stub	dbintree.cc	/^void dbintree::add_stub(struct tnode *node, unsigned int addr, dlist* Flist, struct filter filters[], int CurrNest){$/;"	f	class:dbintree	signature:(struct tnode *node, unsigned int addr, dlist* Flist, struct filter filters[], int CurrNest)
+add_stub	dbintree.h	/^  void add_stub(struct tnode *node, unsigned int addr, dlist* Flist, struct filter filters[],int CurrNest);$/;"	p	class:dbintree	signature:(struct tnode *node, unsigned int addr, dlist* Flist, struct filter filters[],int CurrNest)
+binomial	PrefixList.cc	/^void PrefixList::binomial(int k, double p[]){$/;"	f	class:PrefixList	signature:(int k, double p[])
+binomial	PrefixList.h	/^  void binomial(int k, double p[]);$/;"	p	class:PrefixList	signature:(int k, double p[])
+bit	stdinc.h	/^typedef char bit;$/;"	t
+build_cdist	PrefixList.cc	/^void PrefixList::build_cdist() {$/;"	f	class:PrefixList	signature:()
+build_cdist	PrefixList.h	/^  void build_cdist();$/;"	p	class:PrefixList	signature:()
+build_tree	dbintree.cc	/^void dbintree::build_tree(dlist* Flist, struct filter filters[]){$/;"	f	class:dbintree	signature:(dlist* Flist, struct filter filters[])
+build_tree	dbintree.h	/^  void build_tree(dlist* Flist, struct filter filters[]);$/;"	p	class:dbintree	signature:(dlist* Flist, struct filter filters[])
+build_tree	sbintree.cc	/^void sbintree::build_tree(dlist* Flist, struct filter filters[]){$/;"	f	class:sbintree	signature:(dlist* Flist, struct filter filters[])
+build_tree	sbintree.h	/^  void build_tree(dlist* Flist, struct filter filters[]);$/;"	p	class:sbintree	signature:(dlist* Flist, struct filter filters[])
+cdist	PrefixList.h	/^  int cdist; \/\/ flag signaling if cummulative distribution has been computed$/;"	m	class:PrefixList
+child0	dbintree.h	/^    struct tnode *child0;$/;"	m	struct:dbintree::tnode	typeref:struct:dbintree::tnode::tnode
+child0	sbintree.h	/^  struct stnode *child0;$/;"	m	struct:stnode	typeref:struct:stnode::stnode
+child1	dbintree.h	/^    struct tnode *child1;$/;"	m	struct:dbintree::tnode	typeref:struct:dbintree::tnode::tnode
+child1	sbintree.h	/^  struct stnode *child1;$/;"	m	struct:stnode	typeref:struct:stnode::stnode
+choose	ExtraList.cc	/^void ExtraList::choose(int prot, int *extra){$/;"	f	class:ExtraList	signature:(int prot, int *extra)
+choose	ExtraList.h	/^  void choose(int prot, int *extras); \/\/ choose extras based on probability$/;"	p	class:ExtraList	signature:(int prot, int *extras)
+choose	FlagList.cc	/^void FlagList::choose(float p, int prot, unsigned *flags, unsigned *flags_mask){$/;"	f	class:FlagList	signature:(float p, int prot, unsigned *flags, unsigned *flags_mask)
+choose	FlagList.h	/^  void choose(float p, int prot, unsigned *flags, unsigned *flags_mask); \/\/ choose flags based on probability$/;"	p	class:FlagList	signature:(float p, int prot, unsigned *flags, unsigned *flags_mask)
+choose_port	PortList.cc	/^struct range PortList::choose_port(double r) {$/;"	f	class:PortList	signature:(double r)
+choose_port	PortList.h	/^  struct range choose_port(double r); \/\/ Choose port from distribution given random number r [0:1]$/;"	p	class:PortList	signature:(double r)
+choose_ports	ProtList.cc	/^int ProtList::choose_ports(float r, int prot) {$/;"	f	class:ProtList	signature:(float r, int prot)
+choose_ports	ProtList.h	/^  int choose_ports(float r, int prot); \/\/ Choose port range type given random number r and protocol$/;"	p	class:ProtList	signature:(float r, int prot)
+choose_prefix	PrefixList.cc	/^struct ppair PrefixList::choose_prefix(int type, float rs, float rt) {$/;"	f	class:PrefixList	signature:(int type, float rs, float rt)
+choose_prefix	PrefixList.h	/^  struct ppair choose_prefix(int type, float rs, float rt); \/\/ Choose prefix pair from distribution given random number r [0:1]$/;"	p	class:PrefixList	signature:(int type, float rs, float rt)
+choose_prot	ProtList.cc	/^int ProtList::choose_prot(float r) {$/;"	f	class:ProtList	signature:(float r)
+choose_prot	ProtList.h	/^  int choose_prot(float r); \/\/ Choose protocol from distribution given random number r [0:1]$/;"	p	class:ProtList	signature:(float r)
+cleanup	TupleBST.cc	/^void TupleBST::cleanup(TupleBST_item* node){$/;"	f	class:TupleBST	signature:(TupleBST_item* node)
+cleanup	TupleBST.h	/^  void cleanup(TupleBST_item*);$/;"	p	class:TupleBST	signature:(TupleBST_item*)
+clear	FilterList.cc	/^void FilterList::clear() {$/;"	f	class:FilterList	signature:()
+clear	FilterList.h	/^  void	clear();		\/\/ remove everything$/;"	p	class:FilterList	signature:()
+clear	dlist.cc	/^void dlist::clear() {$/;"	f	class:dlist	signature:()
+clear	dlist.h	/^	void	clear();		\/\/ remove everything$/;"	p	class:dlist	signature:()
+corr	dbintree.h	/^  float *corr; \/\/ array of target correlations for each level $/;"	m	class:dbintree
+custom_db_gen	custom_db.cc	/^int custom_db_gen(int num_filters, FilterList* filters, FILE* fp_in, int smoothness, float addr_scope, float port_scope, int branch){$/;"	f	signature:(int num_filters, FilterList* filters, FILE* fp_in, int smoothness, float addr_scope, float port_scope, int branch)
+custom_db_gen	custom_db.h	/^int custom_db_gen(int num_filters, FilterList* filters, FILE* fp_in, int smoothness, float addr_scope, float port_scope, int branch);$/;"	p	signature:(int num_filters, FilterList* filters, FILE* fp_in, int smoothness, float addr_scope, float port_scope, int branch)
+da	stdinc.h	/^  unsigned da; \/\/ IP destination address$/;"	m	struct:filter
+da_len	TupleBST.h	/^  int da_len;$/;"	m	struct:FiveTuple
+da_len	custom_db.h	/^  int da_len;$/;"	m	struct:rtuple
+da_len	stdinc.h	/^  int da_len; \/\/ IP destination address mask length$/;"	m	struct:filter
+da_prefix_match	redundant_filter_check.cc	/^int da_prefix_match(struct filter filt1, struct filter filt2){$/;"	f	signature:(struct filter filt1, struct filter filt2)
+da_prefix_match	redundant_filter_check.h	/^int da_prefix_match(struct filter filt1, struct filter filt2);$/;"	p	signature:(struct filter filt1, struct filter filt2)
+dbintree	dbintree.cc	/^dbintree::dbintree() {$/;"	f	class:dbintree	signature:()
+dbintree	dbintree.h	/^ public: dbintree();$/;"	p	class:dbintree	signature:()
+dbintree	dbintree.h	/^class dbintree {$/;"	c
+delete_node	dbintree.cc	/^void dbintree::delete_node(struct tnode *me){$/;"	f	class:dbintree	signature:(struct tnode *me)
+delete_node	dbintree.h	/^  void delete_node(struct tnode *me);$/;"	p	class:dbintree	signature:(struct tnode *me)
+delete_node	sbintree.cc	/^void sbintree::delete_node(struct stnode *me){$/;"	f	class:sbintree	signature:(struct stnode *me)
+delete_node	sbintree.h	/^  void delete_node(struct stnode *me);$/;"	p	class:sbintree	signature:(struct stnode *me)
+dlen	stdinc.h	/^  int dlen;$/;"	m	struct:ppair
+dlist	dlist.cc	/^dlist::dlist() {$/;"	f	class:dlist	signature:()
+dlist	dlist.h	/^	dlist();   \/\/ constructor$/;"	p	class:dlist	signature:()
+dlist	dlist.h	/^class dlist {$/;"	c
+dlist_item	dlist.h	/^struct dlist_item {$/;"	s
+dp	stdinc.h	/^  int dp[2]; \/\/ Transport destination port range [low,high]$/;"	m	struct:filter
+dp_range_match	redundant_filter_check.cc	/^int dp_range_match(struct filter filt1, struct filter filt2){$/;"	f	signature:(struct filter filt1, struct filter filt2)
+dp_range_match	redundant_filter_check.h	/^int dp_range_match(struct filter filt1, struct filter filt2);$/;"	p	signature:(struct filter filt1, struct filter filt2)
+dp_wid	TupleBST.h	/^  int dp_wid;$/;"	m	struct:FiveTuple
+dp_width	custom_db.h	/^  int dp_width;$/;"	m	struct:rtuple
+ext_field	stdinc.h	/^  int *ext_field; \/\/ Pointer to array of extra header fields$/;"	m	struct:filter
+factorial	stdinc.h	/^inline double factorial(int x) {$/;"	f	signature:(int x)
+fatal	stdinc.h	/^inline void fatal(char* string) {fprintf(stderr,"Fatal:%s\\n",string); exit(1); }$/;"	f	signature:(char* string)
+field	ExtraList.h	/^  struct ExtraListItem **field;$/;"	m	struct:ExtraListHeader	typeref:struct:ExtraListHeader::ExtraListItem
+filt	FilterList.h	/^  struct filter filt;$/;"	m	struct:FilterList_item	typeref:struct:FilterList_item::filter
+filter	stdinc.h	/^struct filter {$/;"	s
+finish_node	dbintree.cc	/^void dbintree::finish_node(struct tnode *node, unsigned int addr, dlist* Flist, struct filter filters[], int CurrNest){$/;"	f	class:dbintree	signature:(struct tnode *node, unsigned int addr, dlist* Flist, struct filter filters[], int CurrNest)
+finish_node	dbintree.h	/^  void finish_node(struct tnode *node, unsigned int addr, dlist* Flist, struct filter filters[],int CurrNest);$/;"	p	class:dbintree	signature:(struct tnode *node, unsigned int addr, dlist* Flist, struct filter filters[],int CurrNest)
+first	ExtraList.h	/^  struct ExtraListHeader *first; \/\/ pointer to first item in list$/;"	m	class:ExtraList	typeref:struct:ExtraList::ExtraListHeader
+first	FilterList.h	/^  struct FilterList_item *first; \/\/ beginning of list$/;"	m	class:FilterList	typeref:struct:FilterList::FilterList_item
+first	FlagList.h	/^  struct FlagListItem **first;       \/\/ array of pointers to first item in list$/;"	m	class:FlagList	typeref:struct:FlagList::FlagListItem
+first	PortList.h	/^  int first; \/\/ beginning of list$/;"	m	class:PortList
+first	ProtList.h	/^  int first; \/\/ beginning of list$/;"	m	class:ProtList
+first	dlist.h	/^	struct dlist_item* first;	\/\/ pointer to first dlist_item of dlist$/;"	m	class:dlist	typeref:struct:dlist::dlist_item
+flag	TupleBST.h	/^  int flag;$/;"	m	struct:FiveTuple
+flag_match	redundant_filter_check.cc	/^int flag_match(struct filter filt1, struct filter filt2){$/;"	f	signature:(struct filter filt1, struct filter filt2)
+flag_match	redundant_filter_check.h	/^int flag_match(struct filter filt1, struct filter filt2);$/;"	p	signature:(struct filter filt1, struct filter filt2)
+flags	FlagList.h	/^  unsigned flags;$/;"	m	struct:FlagListItem
+flags	stdinc.h	/^  unsigned flags; \/\/ 16-bit flags field$/;"	m	struct:filter
+flags_mask	FlagList.h	/^  unsigned flags_mask;$/;"	m	struct:FlagListItem
+flags_mask	stdinc.h	/^  unsigned flags_mask; \/\/ 16-bit mask for flags$/;"	m	struct:filter
+fprint_filter	custom_db.cc	/^void fprint_filter(FILE *fp, struct filter *filt){$/;"	f	signature:(FILE *fp, struct filter *filt)
+fprint_filter	custom_db.h	/^void fprint_filter(FILE *fp, struct filter* filt);$/;"	p	signature:(FILE *fp, struct filter* filt)
+freq	custom_db.h	/^  int freq;$/;"	m	struct:rtuple
+frst	dlist.cc	/^int dlist::frst() {$/;"	f	class:dlist	signature:()
+frst	dlist.h	/^	int	frst();			\/\/ return first element of the dlist$/;"	p	class:dlist	signature:()
+high	PortList.h	/^  int high, low;$/;"	m	struct:port
+high	custom_db.h	/^  int high;$/;"	m	struct:rwidth
+high	stdinc.h	/^  int high;$/;"	m	struct:range
+insert	FilterList.cc	/^void FilterList::insert(struct FilterList_item *item, struct filter filt) {$/;"	f	class:FilterList	signature:(struct FilterList_item *item, struct filter filt)
+insert	FilterList.h	/^  void	insert(struct FilterList_item*, struct filter); \/\/ insert filter at prior to given item$/;"	p	class:FilterList	signature:(struct FilterList_item*, struct filter)
+insert	dlist.cc	/^void dlist::insert(struct dlist_item *item, int i){$/;"	f	class:dlist	signature:(struct dlist_item *item, int i)
+insert	dlist.h	/^	void	insert(struct dlist_item*, int);       \/\/ insert item prior to given dlist_item$/;"	p	class:dlist	signature:(struct dlist_item*, int)
+isdigit	stdinc.h	/^inline bit isdigit(int c) { return (c >= '0') && (c <= '9'); }$/;"	f	signature:(int c)
+key	dlist.h	/^  int key;$/;"	m	struct:dlist_item
+last	ExtraList.h	/^  struct ExtraListHeader *last;  \/\/ pointer to last item in list$/;"	m	class:ExtraList	typeref:struct:ExtraList::ExtraListHeader
+last	FilterList.h	/^  struct FilterList_item *last;  \/\/ end of list$/;"	m	class:FilterList	typeref:struct:FilterList::FilterList_item
+last	FlagList.h	/^  struct FlagListItem **last;       \/\/ array of pointers to last item in list$/;"	m	class:FlagList	typeref:struct:FlagList::FlagListItem
+last	PortList.h	/^  int last;  \/\/ end of list$/;"	m	class:PortList
+last	ProtList.h	/^  int last;  \/\/ end of list$/;"	m	class:ProtList
+last	dlist.h	/^      	struct dlist_item* last;	\/\/ pointer to last dlist_item of dlist$/;"	m	class:dlist	typeref:struct:dlist::dlist_item
+left	TupleBST.h	/^  TupleBST_item* left;$/;"	m	struct:TupleBST_item
+level	dbintree.h	/^typedef int level;$/;"	t
+level	sbintree.h	/^typedef int level;$/;"	t
+log	stdinc.h	/^double log(double);$/;"	p	signature:(double)
+low	PortList.h	/^  int high, low;$/;"	m	struct:port
+low	custom_db.h	/^  int low;$/;"	m	struct:rwidth
+low	stdinc.h	/^  int low;$/;"	m	struct:range
+lsort	dbintree.h	/^  void lsort();    \/\/ sort nodes by level $/;"	p	class:dbintree	signature:()
+lst	dlist.cc	/^int dlist::lst() {$/;"	f	class:dlist	signature:()
+lst	dlist.h	/^	int	lst();			\/\/ return last element of the dlist$/;"	p	class:dlist	signature:()
+lvl	dbintree.h	/^    level lvl;$/;"	m	struct:dbintree::tnode
+lvl	sbintree.h	/^  level lvl;$/;"	m	struct:stnode
+main	db_generator.cc	/^main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+max	stdinc.h	/^inline double max(double x, double y) { return x > y ? x : y; }$/;"	f	signature:(double x, double y)
+max	stdinc.h	/^inline int max(int x, int y) { return x > y ? x : y; }$/;"	f	signature:(int x, int y)
+mbr	dlist.cc	/^bit dlist::mbr(int i) {$/;"	f	class:dlist	signature:(int i)
+mbr	dlist.h	/^	bit	mbr(int);		\/\/ return true if member of dlist$/;"	p	class:dlist	signature:(int)
+min	stdinc.h	/^inline double min(double x, double y) { return x < y ? x : y; }$/;"	f	signature:(double x, double y)
+min	stdinc.h	/^inline int min(int x, int y) { return x < y ? x : y; }$/;"	f	signature:(int x, int y)
+next	ExtraList.h	/^  struct ExtraListHeader *next;$/;"	m	struct:ExtraListHeader	typeref:struct:ExtraListHeader::ExtraListHeader
+next	FilterList.h	/^  struct FilterList_item *next;$/;"	m	struct:FilterList_item	typeref:struct:FilterList_item::FilterList_item
+next	FlagList.h	/^  struct FlagListItem *next;$/;"	m	struct:FlagListItem	typeref:struct:FlagListItem::FlagListItem
+next	PortList.h	/^  int next;$/;"	m	struct:port
+next	dlist.h	/^  struct dlist_item* next;$/;"	m	struct:dlist_item	typeref:struct:dlist_item::dlist_item
+nodes	dbintree.cc	/^int dbintree::nodes(){$/;"	f	class:dbintree	signature:()
+nodes	dbintree.h	/^  int nodes(); \/\/ return number of nodes$/;"	p	class:dbintree	signature:()
+nodes	sbintree.cc	/^int sbintree::nodes(){$/;"	f	class:sbintree	signature:()
+nodes	sbintree.h	/^  int nodes(); \/\/ return number of nodes$/;"	p	class:sbintree	signature:()
+num	ExtraList.h	/^  int num;$/;"	m	struct:ExtraListItem
+num	FilterList.h	/^  int num;   \/\/ number of filters in the list$/;"	m	class:FilterList
+num	custom_db.h	/^  int num;$/;"	m	struct:rprot
+num	dlist.h	/^      	int	num;			\/\/ number of dlist_items currently on the dlist$/;"	m	class:dlist
+num_ext_field	stdinc.h	/^  int num_ext_field; \/\/ Number of extra header fields$/;"	m	struct:filter
+num_stnodes	sbintree.h	/^  int num_stnodes; \/\/ number of tree nodes $/;"	m	class:sbintree
+num_tnodes	dbintree.h	/^  int num_tnodes; \/\/ number of tree nodes $/;"	m	class:dbintree
+operator &=	FilterList.cc	/^void FilterList::operator&=(struct filter filt) {$/;"	f	class:FilterList	signature:(struct filter filt)
+operator &=	FilterList.h	/^  void	operator&=(struct filter);  \/\/ append item$/;"	p	class:FilterList	signature:(struct filter)
+operator &=	dlist.cc	/^void dlist::operator&=(int i) {$/;"	f	class:dlist	signature:(int i)
+operator &=	dlist.h	/^	void	operator&=(int);	\/\/ append item$/;"	p	class:dlist	signature:(int)
+operator ()	ExtraList.cc	/^struct ExtraListHeader* ExtraList::operator()(int prot){$/;"	f	class:ExtraList	signature:(int prot)
+operator ()	ExtraList.h	/^  struct ExtraListHeader* operator()(int prot); \/\/ return pointer to header with protocol number$/;"	p	class:ExtraList	signature:(int prot)
+operator ()	FilterList.cc	/^struct FilterList_item* FilterList::operator()(int i) {$/;"	f	class:FilterList	signature:(int i)
+operator ()	FilterList.h	/^  struct FilterList_item* operator()(int);    \/\/ access item$/;"	p	class:FilterList	signature:(int)
+operator ()	ProtList.cc	/^int ProtList::operator()(int i){$/;"	f	class:ProtList	signature:(int i)
+operator ()	ProtList.h	/^  int operator()(int i); \/\/ Return protocol number for protocol i$/;"	p	class:ProtList	signature:(int i)
+operator ()	dlist.cc	/^struct dlist_item* dlist::operator()(int i) {$/;"	f	class:dlist	signature:(int i)
+operator ()	dlist.h	/^	struct dlist_item* operator()(int);	\/\/ access dlist_item$/;"	p	class:dlist	signature:(int)
+operator <<=	FilterList.cc	/^void FilterList::operator<<=(int i) {$/;"	f	class:FilterList	signature:(int i)
+operator <<=	FilterList.h	/^  void	operator<<=(int);	    \/\/ remove initial items$/;"	p	class:FilterList	signature:(int)
+operator <<=	dlist.cc	/^void dlist::operator<<=(int i) {$/;"	f	class:dlist	signature:(int i)
+operator <<=	dlist.h	/^	void	operator<<=(int);	\/\/ remove initial items$/;"	p	class:dlist	signature:(int)
+operator =	FilterList.cc	/^void FilterList::operator=(FilterList* L) {$/;"	f	class:FilterList	signature:(FilterList* L)
+operator =	FilterList.h	/^  void	operator=(FilterList*);	    \/\/ copy list$/;"	p	class:FilterList	signature:(FilterList*)
+operator =	dlist.cc	/^void dlist::operator=(dlist *L) {$/;"	f	class:dlist	signature:(dlist *L)
+operator =	dlist.h	/^	void	operator=(dlist*);	\/\/ dlist assignment$/;"	p	class:dlist	signature:(dlist*)
+p1child	dbintree.h	/^  float *p1child; \/\/ probability that a node at a given level has one child$/;"	m	class:dbintree
+p1child	sbintree.h	/^  float *p1child; \/\/ probability that a node at a given level has one child$/;"	m	class:sbintree
+p2child	dbintree.h	/^  float *p2child; \/\/ probability that a node at a given level has two children$/;"	m	class:dbintree
+p2child	sbintree.h	/^  float *p2child; \/\/ probability that a node at a given level has two children$/;"	m	class:sbintree
+parent	TupleBST.h	/^  TupleBST_item* parent;$/;"	m	struct:TupleBST_item
+parent	dbintree.h	/^    struct tnode *parent;$/;"	m	struct:dbintree::tnode	typeref:struct:dbintree::tnode::tnode
+parent	sbintree.h	/^  struct stnode *parent;$/;"	m	struct:stnode	typeref:struct:stnode::stnode
+port	PortList.h	/^struct port {$/;"	s
+ports	PortList.h	/^  struct port *ports; \/\/ array of port structs$/;"	m	class:PortList	typeref:struct:PortList::port
+pow	stdinc.h	/^double pow(double,double);$/;"	p	signature:(double,double)
+ppair	stdinc.h	/^struct ppair {$/;"	s
+prefix	PrefixList.h	/^struct prefix {$/;"	s
+prefixes	PrefixList.h	/^  struct prefix** prefixes; \/\/ array of prefix structs$/;"	m	class:PrefixList	typeref:struct:PrefixList::prefix
+prev	ExtraList.h	/^  struct ExtraListHeader *prev;$/;"	m	struct:ExtraListHeader	typeref:struct:ExtraListHeader::ExtraListHeader
+prev	FilterList.h	/^  struct FilterList_item *prev;$/;"	m	struct:FilterList_item	typeref:struct:FilterList_item::FilterList_item
+prev	FlagList.h	/^  struct FlagListItem *prev;$/;"	m	struct:FlagListItem	typeref:struct:FlagListItem::FlagListItem
+prev	dlist.h	/^  struct dlist_item* prev;$/;"	m	struct:dlist_item	typeref:struct:dlist_item::dlist_item
+print	ExtraList.cc	/^void ExtraList::print(FILE* fp) {$/;"	f	class:ExtraList	signature:(FILE* fp)
+print	ExtraList.h	/^  void print(FILE *fp); \/\/ print distribution to output file$/;"	p	class:ExtraList	signature:(FILE *fp)
+print	FilterList.cc	/^void FilterList::print(FILE* fp) {$/;"	f	class:FilterList	signature:(FILE* fp)
+print	FilterList.h	/^  void  print(FILE *fp);        \/\/ Print filters$/;"	p	class:FilterList	signature:(FILE *fp)
+print	FlagList.cc	/^void FlagList::print(FILE* fp) {$/;"	f	class:FlagList	signature:(FILE* fp)
+print	FlagList.h	/^  void print(FILE *fp); \/\/ print distribution to output file$/;"	p	class:FlagList	signature:(FILE *fp)
+print	PortList.cc	/^void PortList::print(FILE *fp) {$/;"	f	class:PortList	signature:(FILE *fp)
+print	PortList.h	/^  void print(FILE*); \/\/ Print portocol distribution$/;"	p	class:PortList	signature:(FILE*)
+print	PrefixList.cc	/^void PrefixList::print(int type, FILE *fp) {$/;"	f	class:PrefixList	signature:(int type, FILE *fp)
+print	PrefixList.h	/^  void print(int type, FILE*); \/\/ Print prefix distribution$/;"	p	class:PrefixList	signature:(int type, FILE*)
+print	ProtList.cc	/^void ProtList::print(FILE *fp) {$/;"	f	class:ProtList	signature:(FILE *fp)
+print	ProtList.h	/^  void print(FILE*); \/\/ Print protocol distribution$/;"	p	class:ProtList	signature:(FILE*)
+print	dlist.cc	/^void dlist::print(FILE* fp) {$/;"	f	class:dlist	signature:(FILE* fp)
+print	dlist.h	/^	void	print(FILE* fp);	\/\/ print the items on dlist$/;"	p	class:dlist	signature:(FILE* fp)
+print_corr	dbintree.cc	/^void dbintree::print_corr(FILE *fp) {$/;"	f	class:dbintree	signature:(FILE *fp)
+print_corr	dbintree.h	/^  void print_corr(FILE*); \/\/ print correlation per level$/;"	p	class:dbintree	signature:(FILE*)
+print_skew	dbintree.cc	/^void dbintree::print_skew(FILE *fp) {$/;"	f	class:dbintree	signature:(FILE *fp)
+print_skew	dbintree.h	/^  void print_skew(FILE*); \/\/ print average skew per level$/;"	p	class:dbintree	signature:(FILE*)
+print_skew	sbintree.cc	/^void sbintree::print_skew(FILE *fp) {$/;"	f	class:sbintree	signature:(FILE *fp)
+print_skew	sbintree.h	/^  void print_skew(FILE*); \/\/ print average skew per level$/;"	p	class:sbintree	signature:(FILE*)
+prob	ExtraList.h	/^  float *prob;$/;"	m	struct:ExtraListItem
+prob	FlagList.h	/^  float prob;$/;"	m	struct:FlagListItem
+prob	PortList.h	/^  float prob;$/;"	m	struct:port
+prob	PrefixList.h	/^  float prob;$/;"	m	struct:prefix
+prob	ProtList.h	/^  float prob;$/;"	m	struct:protocol
+prot	TupleBST.h	/^  int prot;$/;"	m	struct:FiveTuple
+prot_match	redundant_filter_check.cc	/^int prot_match(struct filter filt1, struct filter filt2){$/;"	f	signature:(struct filter filt1, struct filter filt2)
+prot_match	redundant_filter_check.h	/^int prot_match(struct filter filt1, struct filter filt2);$/;"	p	signature:(struct filter filt1, struct filter filt2)
+prot_num	ExtraList.h	/^  int prot_num;$/;"	m	struct:ExtraListHeader
+prot_num	ProtList.h	/^  int prot_num;$/;"	m	struct:protocol
+prot_num	stdinc.h	/^  int prot_num; \/\/ IP protocol field$/;"	m	struct:filter
+prot_valid	custom_db.h	/^  int prot_valid;$/;"	m	struct:rtuple
+protocol	ProtList.h	/^struct protocol {$/;"	s
+protocols	ProtList.h	/^  struct protocol *protocols; \/\/ array of protocol structs$/;"	m	class:ProtList	typeref:struct:ProtList::protocol
+pt_prob	ProtList.h	/^  float* pt_prob;$/;"	m	struct:protocol
+push	FilterList.cc	/^void FilterList::push(struct filter filt) {$/;"	f	class:FilterList	signature:(struct filter filt)
+push	FilterList.h	/^  void	push(struct filter);        \/\/ prepend item$/;"	p	class:FilterList	signature:(struct filter)
+push	dlist.cc	/^void dlist::push(int i) {$/;"	f	class:dlist	signature:(int i)
+push	dlist.h	/^	void	push(int);		\/\/ push item onto front of dlist$/;"	p	class:dlist	signature:(int)
+qsort	dlist.cc	/^void dlist::qsort(int i, int j) {$/;"	f	class:dlist	signature:(int i, int j)
+qsort	dlist.h	/^	void	qsort(int,int);	        \/\/ quicksort subroutine$/;"	p	class:dlist	signature:(int,int)
+randexp	stdinc.h	/^inline double randexp(double mu) { return -mu*log(randfrac()); }$/;"	f	signature:(double mu)
+randfrac	stdinc.h	/^inline double randfrac() { return ((double) random())\/BIGINT; }$/;"	f	signature:()
+randgeo	stdinc.h	/^inline int randgeo(double p) { return int(.999999 + log(randfrac())\/log(1-p)); }$/;"	f	signature:(double p)
+randint	stdinc.h	/^inline int randint(int lo, int hi) { return lo + (random() % (hi + 1 - lo)); }$/;"	f	signature:(int lo, int hi)
+random_db_gen	random_db.cc	/^int random_db_gen(int num_filters, FilterList* filters){$/;"	f	signature:(int num_filters, FilterList* filters)
+random_db_gen	random_db.h	/^int random_db_gen(int num_filters, FilterList* filters);$/;"	p	signature:(int num_filters, FilterList* filters)
+random_scope	custom_db.cc	/^double random_scope(float scope_x){$/;"	f	signature:(float scope_x)
+random_scope	custom_db.h	/^double random_scope(float scope_x);$/;"	p	signature:(float scope_x)
+range	stdinc.h	/^struct range {$/;"	s
+read	ExtraList.cc	/^void ExtraList::read(FILE *fp, float scale_factor){$/;"	f	class:ExtraList	signature:(FILE *fp, float scale_factor)
+read	ExtraList.h	/^  void read(FILE *fp, float scale_factor); \/\/ read distributions from input file$/;"	p	class:ExtraList	signature:(FILE *fp, float scale_factor)
+read	FlagList.cc	/^void FlagList::read(FILE *fp){$/;"	f	class:FlagList	signature:(FILE *fp)
+read	FlagList.h	/^  void read(FILE *fp); \/\/ read distributions from input file$/;"	p	class:FlagList	signature:(FILE *fp)
+read	PortList.cc	/^void PortList::read(int t, FILE *fp) {$/;"	f	class:PortList	signature:(int t, FILE *fp)
+read	PortList.h	/^  void read(int t, FILE *fp); \/\/ Read port information from input file *fp$/;"	p	class:PortList	signature:(int t, FILE *fp)
+read	PrefixList.cc	/^void PrefixList::read(FILE* fp){$/;"	f	class:PrefixList	signature:(FILE* fp)
+read	PrefixList.h	/^  void read(FILE *fp); \/\/ Read prefix information from input file *fp$/;"	p	class:PrefixList	signature:(FILE *fp)
+read	ProtList.cc	/^void ProtList::read(FILE *fp) {$/;"	f	class:ProtList	signature:(FILE *fp)
+read	ProtList.h	/^  void read(FILE *fp); \/\/ Read protocol information from input file *fp$/;"	p	class:ProtList	signature:(FILE *fp)
+read_corr	dbintree.cc	/^void dbintree::read_corr(FILE* fp_in){$/;"	f	class:dbintree	signature:(FILE* fp_in)
+read_corr	dbintree.h	/^  void read_corr(FILE*); \/\/ read in address correlation statistics$/;"	p	class:dbintree	signature:(FILE*)
+read_nest	dbintree.cc	/^void dbintree::read_nest(FILE* fp_in){$/;"	f	class:dbintree	signature:(FILE* fp_in)
+read_nest	dbintree.h	/^  void read_nest(FILE*); \/\/ read in source address tree statistics$/;"	p	class:dbintree	signature:(FILE*)
+read_nest	sbintree.cc	/^void sbintree::read_nest(FILE* fp_in){$/;"	f	class:sbintree	signature:(FILE* fp_in)
+read_nest	sbintree.h	/^  void read_nest(FILE*); \/\/ read in source address tree statistics$/;"	p	class:sbintree	signature:(FILE*)
+read_scale	custom_db.cc	/^int read_scale(FILE *fp){$/;"	f	signature:(FILE *fp)
+read_scale	custom_db.h	/^int read_scale(FILE *fp);$/;"	p	signature:(FILE *fp)
+read_skew	dbintree.cc	/^void dbintree::read_skew(FILE* fp_in){$/;"	f	class:dbintree	signature:(FILE* fp_in)
+read_skew	dbintree.h	/^  void read_skew(FILE*); \/\/ read in destination address tree statistics$/;"	p	class:dbintree	signature:(FILE*)
+read_skew	sbintree.cc	/^void sbintree::read_skew(FILE* fp_in){$/;"	f	class:sbintree	signature:(FILE* fp_in)
+read_skew	sbintree.h	/^  void read_skew(FILE*); \/\/ read in source address tree statistics$/;"	p	class:sbintree	signature:(FILE*)
+read_type	PrefixList.cc	/^void PrefixList::read_type(int type, FILE *fp) {$/;"	f	class:PrefixList	signature:(int type, FILE *fp)
+read_type	PrefixList.h	/^  void read_type(int type, FILE *fp); \/\/ Read prefix information from input file *fp, type = t$/;"	p	class:PrefixList	signature:(int type, FILE *fp)
+redundant_check	redundant_filter_check.cc	/^int redundant_check(struct filter filt1, struct filter filt2){$/;"	f	signature:(struct filter filt1, struct filter filt2)
+redundant_check	redundant_filter_check.h	/^int redundant_check(struct filter filt1, struct filter filt2);$/;"	p	signature:(struct filter filt1, struct filter filt2)
+remove_redundant_filters	custom_db.cc	/^int remove_redundant_filters(int num_filters, FilterList* filters, filter* temp_filters){$/;"	f	signature:(int num_filters, FilterList* filters, filter* temp_filters)
+remove_redundant_filters	custom_db.h	/^int remove_redundant_filters(int num_filters, FilterList* filters, filter* temp_filters);$/;"	p	signature:(int num_filters, FilterList* filters, filter* temp_filters)
+ri_high	custom_db.h	/^  double ri_high;$/;"	m	struct:rtuple
+ri_low	custom_db.h	/^  double ri_low;$/;"	m	struct:rtuple
+right	TupleBST.h	/^  TupleBST_item* right;$/;"	m	struct:TupleBST_item
+root	TupleBST.h	/^  struct TupleBST_item* root; \/\/ pointer to root node$/;"	m	class:TupleBST	typeref:struct:TupleBST::TupleBST_item
+root	dbintree.h	/^  struct tnode *root; \/\/ pointer to root node$/;"	m	class:dbintree	typeref:struct:dbintree::tnode
+root	sbintree.h	/^  struct stnode *root; \/\/ pointer to root node$/;"	m	class:sbintree	typeref:struct:sbintree::stnode
+rprot	custom_db.h	/^struct rprot {$/;"	s
+rtuple	custom_db.h	/^struct rtuple {$/;"	s
+rwidth	custom_db.h	/^struct rwidth {$/;"	s
+sa	stdinc.h	/^  unsigned sa; \/\/ IP source address$/;"	m	struct:filter
+sa_len	TupleBST.h	/^  int sa_len;$/;"	m	struct:FiveTuple
+sa_len	custom_db.h	/^  int sa_len;$/;"	m	struct:rtuple
+sa_len	stdinc.h	/^  int sa_len; \/\/ IP source address mask length$/;"	m	struct:filter
+sa_prefix_match	redundant_filter_check.cc	/^int sa_prefix_match(struct filter filt1, struct filter filt2){$/;"	f	signature:(struct filter filt1, struct filter filt2)
+sa_prefix_match	redundant_filter_check.h	/^int sa_prefix_match(struct filter filt1, struct filter filt2);$/;"	p	signature:(struct filter filt1, struct filter filt2)
+sbintree	sbintree.cc	/^sbintree::sbintree() {$/;"	f	class:sbintree	signature:()
+sbintree	sbintree.h	/^  sbintree();$/;"	p	class:sbintree	signature:()
+sbintree	sbintree.h	/^class sbintree {$/;"	c
+scale_skew	dbintree.cc	/^void dbintree::scale_skew(float scale_factor){$/;"	f	class:dbintree	signature:(float scale_factor)
+scale_skew	dbintree.h	/^  void scale_skew(float scale_factor); \/\/ scale branching and skew according to scaling factor$/;"	p	class:dbintree	signature:(float scale_factor)
+scale_skew	sbintree.cc	/^void sbintree::scale_skew(float scale_factor){$/;"	f	class:sbintree	signature:(float scale_factor)
+scale_skew	sbintree.h	/^  void scale_skew(float scale_factor); \/\/ scale branching and skew according to scaling factor$/;"	p	class:sbintree	signature:(float scale_factor)
+scope	TupleBST.cc	/^int TupleBST::scope(FiveTuple* ftuple){$/;"	f	class:TupleBST	signature:(FiveTuple* ftuple)
+scope	TupleBST.h	/^  int scope(FiveTuple*);$/;"	p	class:TupleBST	signature:(FiveTuple*)
+scope	TupleBST.h	/^  int scope;$/;"	m	struct:TupleBST_item
+select_ports	custom_db.cc	/^void select_ports(int port_type, struct filter *temp_filter, PortList *sparL, PortList *spemL, PortList *dparL, PortList *dpemL){$/;"	f	signature:(int port_type, struct filter *temp_filter, PortList *sparL, PortList *spemL, PortList *dparL, PortList *dpemL)
+select_ports	custom_db.h	/^void select_ports(int, struct filter*, PortList*, PortList*, PortList*, PortList*);$/;"	p	signature:(int, struct filter*, PortList*, PortList*, PortList*, PortList*)
+size	ExtraList.cc	/^int ExtraList::size(){$/;"	f	class:ExtraList	signature:()
+size	ExtraList.h	/^  int size(); \/\/ return the number of extra fields$/;"	p	class:ExtraList	signature:()
+size	FilterList.cc	/^int FilterList::size() {$/;"	f	class:FilterList	signature:()
+size	FilterList.h	/^  int	size();			\/\/ return size of list$/;"	p	class:FilterList	signature:()
+size	ProtList.cc	/^int ProtList::size(){$/;"	f	class:ProtList	signature:()
+size	ProtList.h	/^  int size(); \/\/ Return the number of unique protocol specs in list$/;"	p	class:ProtList	signature:()
+size	TupleBST.cc	/^int TupleBST::size(){return N;}$/;"	f	class:TupleBST	signature:()
+size	TupleBST.h	/^  int size(); \/\/ return the number of tuples$/;"	p	class:TupleBST	signature:()
+size	dlist.cc	/^int dlist::size() {$/;"	f	class:dlist	signature:()
+size	dlist.h	/^	int	size();			\/\/ return the number of items currently stored in the dlist$/;"	p	class:dlist	signature:()
+skew	dbintree.h	/^  float *skew; \/\/ array of target skews for each level$/;"	m	class:dbintree
+skew	sbintree.h	/^  float *skew; \/\/ array of target skews for each level;$/;"	m	class:sbintree
+slen	stdinc.h	/^  int slen;$/;"	m	struct:ppair
+smooth	PrefixList.cc	/^void PrefixList::smooth(int s){$/;"	f	class:PrefixList	signature:(int s)
+smooth	PrefixList.h	/^  void smooth(int s); \/\/ adjust for smoothness parameter s$/;"	p	class:PrefixList	signature:(int s)
+smooth_type	PrefixList.cc	/^void PrefixList::smooth_type(int type, int s){$/;"	f	class:PrefixList	signature:(int type, int s)
+smooth_type	PrefixList.h	/^  void smooth_type(int type, int s); \/\/ adjust for smoothness parameter s$/;"	p	class:PrefixList	signature:(int type, int s)
+sort	dlist.cc	/^void dlist::sort() {$/;"	f	class:dlist	signature:()
+sort	dlist.h	/^	void    sort();                 \/\/ sort list items in ascending order by key$/;"	p	class:dlist	signature:()
+sp	stdinc.h	/^  int sp[2]; \/\/ Transport source port range [low,high]$/;"	m	struct:filter
+sp_range_match	redundant_filter_check.cc	/^int sp_range_match(struct filter filt1, struct filter filt2){$/;"	f	signature:(struct filter filt1, struct filter filt2)
+sp_range_match	redundant_filter_check.h	/^int sp_range_match(struct filter filt1, struct filter filt2);$/;"	p	signature:(struct filter filt1, struct filter filt2)
+sp_wid	TupleBST.h	/^  int sp_wid;$/;"	m	struct:FiveTuple
+sp_width	custom_db.h	/^  int sp_width;$/;"	m	struct:rtuple
+sprob	PrefixList.h	/^  float sprob[33];$/;"	m	struct:prefix
+ss_high	custom_db.h	/^  float ss_high;$/;"	m	struct:rprot
+ss_low	custom_db.h	/^  float ss_low;$/;"	m	struct:rprot
+stnode	sbintree.h	/^struct stnode {$/;"	s
+stubList	dbintree.h	/^    dlist *stubList;$/;"	m	struct:dbintree::tnode
+suc	dlist.cc	/^int dlist::suc(int i) {$/;"	f	class:dlist	signature:(int i)
+suc	dlist.h	/^	int	suc(int);		\/\/ return successor$/;"	p	class:dlist	signature:(int)
+tnode	dbintree.h	/^  struct tnode {$/;"	s	class:dbintree
+tnodes	dbintree.h	/^  } *tnodes;$/;"	m	class:dbintree	typeref:struct:dbintree::tnode
+tuple	TupleBST.h	/^  struct FiveTuple tuple;$/;"	m	struct:TupleBST_item	typeref:struct:TupleBST_item::FiveTuple
+valid	dbintree.h	/^    int valid;$/;"	m	struct:dbintree::tnode
+value	ExtraList.h	/^  int *value;$/;"	m	struct:ExtraListItem
+warning	stdinc.h	/^inline void warning(char* p) { fprintf(stderr,"Warning:%s \\n",p); }$/;"	f	signature:(char* p)
+width	custom_db.h	/^  int width;$/;"	m	struct:rwidth
+ws_high	custom_db.h	/^  float ws_high;$/;"	m	struct:rprot
+ws_low	custom_db.h	/^  float ws_low;$/;"	m	struct:rprot
+wt_child0	dbintree.h	/^    int wt_child0;$/;"	m	struct:dbintree::tnode
+wt_child0	sbintree.h	/^  int wt_child0;$/;"	m	struct:stnode
+wt_child1	dbintree.h	/^    int wt_child1;$/;"	m	struct:dbintree::tnode
+wt_child1	sbintree.h	/^  int wt_child1;$/;"	m	struct:stnode
+ww_high	custom_db.h	/^  float ww_high;$/;"	m	struct:rprot
+ww_low	custom_db.h	/^  float ww_low;$/;"	m	struct:rprot
+~ExtraList	ExtraList.cc	/^ExtraList::~ExtraList() {$/;"	f	class:ExtraList	signature:()
+~ExtraList	ExtraList.h	/^  ~ExtraList(); \/\/ destructor$/;"	p	class:ExtraList	signature:()
+~FilterList	FilterList.cc	/^FilterList::~FilterList() { $/;"	f	class:FilterList	signature:()
+~FilterList	FilterList.h	/^  ~FilterList();$/;"	p	class:FilterList	signature:()
+~FlagList	FlagList.cc	/^FlagList::~FlagList() {$/;"	f	class:FlagList	signature:()
+~FlagList	FlagList.h	/^  ~FlagList(); \/\/ destructor$/;"	p	class:FlagList	signature:()
+~PortList	PortList.cc	/^PortList::~PortList() { delete ports; }$/;"	f	class:PortList	signature:()
+~PortList	PortList.h	/^  ~PortList();$/;"	p	class:PortList	signature:()
+~PrefixList	PrefixList.cc	/^PrefixList::~PrefixList() {$/;"	f	class:PrefixList	signature:()
+~PrefixList	PrefixList.h	/^  ~PrefixList();$/;"	p	class:PrefixList	signature:()
+~ProtList	ProtList.cc	/^ProtList::~ProtList() {$/;"	f	class:ProtList	signature:()
+~ProtList	ProtList.h	/^  ~ProtList();$/;"	p	class:ProtList	signature:()
+~TupleBST	TupleBST.cc	/^TupleBST::~TupleBST() {$/;"	f	class:TupleBST	signature:()
+~TupleBST	TupleBST.h	/^  ~TupleBST(); \/\/ destructor$/;"	p	class:TupleBST	signature:()
+~dbintree	dbintree.cc	/^dbintree::~dbintree() {$/;"	f	class:dbintree	signature:()
+~dbintree	dbintree.h	/^  ~dbintree();$/;"	p	class:dbintree	signature:()
+~dlist	dlist.cc	/^dlist::~dlist() {$/;"	f	class:dlist	signature:()
+~dlist	dlist.h	/^	~dlist();  \/\/ destructor$/;"	p	class:dlist	signature:()
+~sbintree	sbintree.cc	/^sbintree::~sbintree() {$/;"	f	class:sbintree	signature:()
+~sbintree	sbintree.h	/^  ~sbintree();$/;"	p	class:sbintree	signature:()
